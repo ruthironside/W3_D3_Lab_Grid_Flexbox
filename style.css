@@ -1,0 +1,89 @@
+
+body > header {
+    margin: 0;
+    background-color: rgb(57, 107, 182);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+body > header > h3 {
+    padding: 30px
+}
+
+body > main > h1 {
+    padding: 30px
+}
+
+body > header > nav > ul {
+    padding: 30px;
+    text-decoration: none; 
+}
+
+body > header > nav > ul > button > li {
+    text-decoration: none;
+    color: ghostwhite;
+    padding: 5px
+}
+
+.button {
+    text-decoration: none;
+    background-color: rgb(80, 213, 169);
+    color: ghostwhite;
+    border: 0px;
+    list-style-type: none;
+    border-radius: 5px;
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+
+.image {
+    width: 350px;
+    height: 150px;
+    background-color: lightblue;
+    border: 20px solid white;
+    padding: 20px;
+
+  }
+
+#featured {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 20px;
+}
+
+#destinations {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 20px;
+    flex-flow: row wrap;
+
+}
+
+#places {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 20px;
+    flex-flow: row wrap;
+
+}
+  
+
+/* 
+#grid-container {
+    display: grid;
+    grid-template-areas: 
+      'header header'
+      'menu main'
+      'footer footer';
+    grid-template-columns: 2fr 2fr;
+  
+  } */
